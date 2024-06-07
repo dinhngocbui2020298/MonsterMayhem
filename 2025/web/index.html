@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Mayhem</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="controls">
+            <button onclick="newGame()">New Game</button>
+            <button onclick="joinGame()">Join Game</button>
+            <button onclick="placeMonster('vampire')">Place Vampire</button>
+            <button onclick="placeMonster('werewolf')">Place Werewolf</button>
+            <button onclick="placeMonster('ghost')">Place Ghost</button>
+            <button onclick="moveMonster()">Move Monster</button>
+        </div>
+        <div id="status">Status: Not Connected</div>
+        <div id="grid" class="grid"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
